@@ -230,10 +230,8 @@
 			$i++;
 		}
 	}
-	function main($filename,$lang){
+	function dislines($filename,$lang){
 		global $iso639;
-		$filename = "test.dsl";
-		$lang = "es";
 		$countiso = 0;
 		while ($countiso <= 183){
 			if ($lang == $iso639[$countiso]){
